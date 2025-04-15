@@ -82,16 +82,8 @@ furnished to do so, subject to the following conditions:
 
 [...full MIT license text here...]
 ```
-
-### Apache License 2.0 (AD License)
-
-```
-Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
+![text](LICENSE)
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-[...full Apache 2.0 license text here...]
-```
 
