@@ -1,10 +1,10 @@
-# NimbleLaunch
+# nimble-launch
 
 Created by Pjsofonic
 
 ## Project Description
 
-NimbleLaunch is a business growth project built with Next.js 13.5.1, React 18, and TypeScript. It leverages modern web technologies and UI libraries to provide a performant, scalable, and user-friendly web application.
+nimble-launch is a business growth project built with Next.js 13.5.1, React 18, and TypeScript. It leverages modern web technologies and UI libraries to provide a performant, scalable, and user-friendly web application.
 
 ## Features
 
@@ -22,8 +22,8 @@ NimbleLaunch is a business growth project built with Next.js 13.5.1, React 18, a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/programerPj69/NimbleLaunch.git
-cd NimbleLaunch
+git clone https://github.com/programerPj69/nimble-launch.git
+cd nimble-launch
 ```
 
 2. Install dependencies:
@@ -93,5 +93,3 @@ http://www.apache.org/licenses/
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 [...full Apache 2.0 license text here...]
-```
-
