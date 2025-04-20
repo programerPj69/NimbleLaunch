@@ -1,7 +1,7 @@
 "use client";
 
-import { Card } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card } from "components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "components/ui/tabs";
 import { BookOpen, Code, FileText, Lightbulb } from "lucide-react";
 
 export default function DocumentationPage() {

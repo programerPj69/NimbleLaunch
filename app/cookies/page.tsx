@@ -1,7 +1,7 @@
 'use client';
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "components/ui/card";
+import { ScrollArea } from "components/ui/scroll-area";
 import { Shield, Cookie, Lock } from "lucide-react";
 
 export default function CookiesPage() {

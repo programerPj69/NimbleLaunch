@@ -36,6 +36,9 @@ const nextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true
+  },
+  experimental: {
+    // Removed fontLoaders as it is not a valid option
   }
 };
 

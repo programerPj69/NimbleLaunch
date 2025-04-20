@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Card } from '@/components/ui/card';
-import { Label } from '@/components/ui/label';
+import { Button } from "components/ui/button";
+import { Input } from "components/ui/input";
+import { Textarea } from "components/ui/textarea";
+import { Card } from "components/ui/card";
+import { Label } from "components/ui/label";
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "hooks/use-toast";
 
 export default function Contact() {
   const { toast } = useToast();

@@ -1,15 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Card } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
+import { Button } from "components/ui/button";
+import { Input } from "components/ui/input";
+import { Card } from "components/ui/card";
+import { Label } from "components/ui/label";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/components/lib/supabase";
+import { supabase } from "lib/supabase";
 import { toast } from "sonner";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "components/ui/tabs";
 import { FcGoogle } from 'react-icons/fc';
 
 export default function SignupPage() {
@@ -211,7 +211,7 @@ export default function SignupPage() {
                 <Input
                   id="phone"
                   type="tel"
-                  placeholder="+91 1234567890"
+                  placeholder="+1234567890"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   required

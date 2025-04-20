@@ -1,8 +1,8 @@
 "use client";
 
 import { createContext, useEffect, useState } from 'react';
-import { supabase } from './lib/supabase';
-import { AuthContext } from './lib/auth';
+import { supabase } from '@/lib/supabase';
+import { AuthContext } from '@/lib/auth';
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<any>(null);
