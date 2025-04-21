@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const { withNetlify } = require('@netlify/next');
+
+module.exports = withNetlify({
   output: 'export',
   images: {
     unoptimized: true,
@@ -40,6 +41,4 @@ const nextConfig = {
   experimental: {
     // Removed fontLoaders as it is not a valid option
   }
-};
-
-module.exports = nextConfig;
+});
