@@ -2,5 +2,17 @@
   command = "npm run build"
   publish = ".next"
 
-[functions]
-  directory = "netlify/functions"
+[dev]
+  command = "next dev"
+  targetPort = 3000
+  port = 8888
+  autoLaunch = true
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Optional: Redirect all routes to Next.js for better SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
